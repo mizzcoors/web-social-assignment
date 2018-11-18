@@ -1,0 +1,815 @@
+@charset "utf-8";
+
+@font-face{
+	
+	font-family: "alfa-slab-one";
+	src: url("alfa-slab-one.otf")
+}
+
+
+
+.img-resposive {
+    width: 80%;
+    height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.navlist {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navlistitem {
+    float: left;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+}
+.navlistitem a {
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    color: #090909;
+}
+.navlistitem a:hover  {
+    color: #E7D6D7;
+	background-color: grey; 
+}
+.navlistitem a:active {
+	background-color: navy; 
+}
+
+
+nav {
+    background-image: -webkit-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+}
+
+
+header {
+    text-align: center; 
+}
+
+body {
+    background-color: #DDCECE;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2.5%;
+    margin: 2%;
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 3px 0px #0E5C6C;
+	line-height: 2em;
+	font-size: 3em;
+	text-decoration: underline;
+}
+h2 {
+    font-family: alfa-slab-one;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    
+}
+
+
+h3 {
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
+
+/*Our Experience*/
+#col1 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    border-radius: 25px;
+}
+
+/*Our Geo Location*/
+#col2 {
+    width: 47%;
+    float: left;
+    margin-top: 30px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    border-radius: 25px;
+    margin-right: 6%;
+}
+
+/*Our Accreditations*/
+#col3 {
+    width: 47%;
+    height: 10%;
+    float: left;
+    margin-top: 30px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    border-radius: 25px;   
+}
+
+/*Our Clients*/
+#col4 {
+    width: 47%;
+    float: left;
+    margin-top: 10px;
+	margin-bottom: 70px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(85,70,71,0.25) 0%,rgba(251,243,243,1.00) 100%);
+    border-radius: 25px;
+}
+
+
+
+
+#box_1 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 20%;
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    margin-top: .5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2%;
+    float: left;
+
+    
+}
+#box_2 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 20%;  
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    margin-top: .5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+	padding: 2%;
+}
+#box_3 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 20%;  
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    margin-top: .5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+	padding: 2%;
+}
+#box_4 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+ 	width: 20%;  
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    margin-top: .5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+	padding: 2%;
+}
+
+.middlesection {
+    background-image: -webkit-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    border-radius: 2.5%;
+    width: 100%;
+	postion: relative;
+	float: left;
+	padding: 2.5%;
+  
+}
+
+/*Recycling page- 1.plan*/
+#col5 {
+    width: 25%;
+	height: 35%;
+    float: left;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+	margin-left: 13%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    display: relative;
+	border: medium double rgba(0,0,0,1.00);
+}
+
+/*Recycling page- 2.design*/
+#col6 {
+    width: 25%;
+	height: 35%;
+    float: left;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    display: relative;
+    border: medium double rgba(0,0,0,1.00);
+   
+}
+
+/*Recycling page - 3.Install*/
+#col7 {
+    width: 25%;
+    float: left;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    display: relative;
+    border: medium double rgba(0,0,0,1.00);
+}
+
+/*Recycling page - Gallery*/
+#col8 {
+    width: 80%;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+	margin-left: 13%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+	border: medium double rgba(0,0,0,1.00);
+    clear: left;
+}
+/*Engineering page - General*/
+
+#col9 {
+    width: 47%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+    margin-right: 6%;
+}
+
+/*Engineering page - Contract*/
+#col10 {
+    width: 47%;
+    height: 10%;
+    float: left;
+    margin-top: 30px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+
+/*Engineering page - Contract*/
+#col11 {
+    width: 47%;
+    height: 10%;
+    float: left;
+    margin-top: 30px;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -ms-flex: 33.33%; /* IE10 */
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+footer {
+    font-size: small;
+    clear: both;
+    box-shadow: inset 0px 0px;
+    background-image: -webkit-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(42,88,120,1.00) 0%,rgba(135,131,131,1.00) 100%);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+.container {
+	padding: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 2.5%;
+	background-image: url(#), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(154,188,216,1.00) 100%);
+    background-image: url(#), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(154,188,216,1.00) 100%);
+    background-image: url(#), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(154,188,216,1.00) 100%);
+    background-image: url(#), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(154,188,216,1.00) 100%);
+}
+.container img {
+    border-radius: 50%;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.asideleft {
+    width: 30%;
+    float: left;
+}
+.sectionRight {
+    width: 55%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-left: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(247,247,247,1.00) 16.39%,rgba(210,210,210,0.55) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(247,247,247,1.00) 16.39%,rgba(210,210,210,0.55) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(247,247,247,1.00) 16.39%,rgba(210,210,210,0.55) 100%);
+    background-image: linear-gradient(180deg,rgba(247,247,247,1.00) 16.39%,rgba(210,210,210,0.55) 100%);
+    border-top-right-radius: 25px;
+    margin-bottom: 100px;
+    border: thin ridge rgba(75,72,72,1.00);
+}
+.formstyle {
+    width: 100%;
+}
+#team {
+    margin: 7.5%;
+    padding: 2.5%;
+    width: 80%;
+}
+
+
+
+@media (max-width: 700px){	
+	
+	.img-resposive {
+    width: 80%;
+    height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+	
+h1 {
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8em;
+    text-align: center;
+    text-shadow: 3px 0px #0E5C6C;
+    line-height: 1.1em;
+ 
+}
+
+h2 {
+    font-family: alfa-slab-one;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+	
+.middlesection {
+    background-image: -webkit-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(139,122,122,0.80) 0%,rgba(227,200,200,1.00) 100%);
+    border-radius: 2.5%;
+    width: 80%;
+	height: auto;
+	display: relative;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+#box_1 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 75%;
+    height: 2.5%;
+    position: static;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2.5%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+#box_2 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 75%;
+    height: 2.5%;
+    position: static;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    float: left;
+    padding: 2.5%;
+}
+#box_3 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 75%;
+    height: 2.5%;
+    position: static;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+     margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    float: left;
+    padding: 2.5%;
+}
+#box_4 {
+    background-image: -webkit-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(41,127,181,1.00) 0%,rgba(239,235,235,1.00) 100%);
+    width: 75%;
+    height: 2.5%;
+    position: static;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-family: alfa-slab-one;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border-radius: 3%;
+    float: left;
+	padding: 2.5%;
+}
+header {
+    text-align: center;
+}
+	
+  .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+/*Engineering page - General*/
+
+#col9 {
+    width: 80%;
+    float: left;
+    margin: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+    margin-right: 6%;
+}
+/*Engineering page - Contract*/
+#col10 {
+    width: 80%;
+    height: 10%;
+    float: left;
+    margin: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+/*Engineering page - Contract*/
+#col11 {
+    width: 80%;
+    height: 10%;
+    float: left;
+    margin: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+
+		
+}
+
+@media (max-width: 900px){
+	
+	.img-resposive {
+    width: 80%;
+    height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*Recycling page- 1.plan*/
+#col5 {
+    width: 80%;
+	float:left;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 2%;
+	padding: 2.5%;
+    display: relative;
+    border: medium double rgba(0,0,0,1.00);
+}
+/*Recycling page- 2.design*/
+#col6 {
+    width: 80%;
+    float: left;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 2%;
+    display: relative;
+    border: medium double rgba(0,0,0,1.00);
+   
+}
+/*Recycling page - 3.Install*/
+#col7 {
+    width: 80%;
+    float: left;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 2%;
+    display: relative;
+    border: medium double rgba(0,0,0,1.00);
+}
+/*Recycling page*/
+#col8 {
+    width: 80%;
+    padding: 2.5%;
+    border-radius: 25px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(167,138,138,1.00) 100%);
+    margin-top: 1%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 5%;
+    border: medium double rgba(0,0,0,1.00);
+    clear: left;
+}
+
+   .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+	
+	/*Engineering page - General*/
+
+#col9 {
+    width: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+    margin-bottom: 0%;
+}
+/*Engineering page - Contract*/
+#col10 {
+    width: 80%;
+    height: 10%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+	margin-right: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+/*Engineering page - Contract*/
+#col11 {
+    width: 80%;
+    height: 10%;
+    float: left;
+	margin-top: 5%;
+    margin-left: 10%;
+	margin-right: 10%;
+    padding: 2.5%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.50) 0%,rgba(197,185,185,1.00) 100%);
+    border-radius: 25px;
+    border: thick groove rgba(204,202,202,1.00);
+}
+
+.sectionRight {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-bottom: 100px;	
+
+}	
+	
+.formStyle{
+	
+	width: 100%;
+}
+	
+.asideleft {
+    width: 90%;
+    float: left;
+	margin-left: 5%;
+	margin-rigt: 5%;
+
+	}	
+	
+	
+
+}
